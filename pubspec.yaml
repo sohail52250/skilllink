@@ -1,0 +1,69 @@
+﻿name: skilllink
+description: SkillLink - Local service marketplace (workers + jobs + credits system)
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ðŸ”¥ APK updater packages
+  dio: ^5.7.0
+  permission_handler: ^11.3.1
+  open_file: ^3.5.10
+  path_provider: ^2.1.4
+
+  # UI icons
+  cupertino_icons: ^1.0.8
+
+  # State management
+  flutter_riverpod: ^3.3.1
+
+  # Firebase
+  firebase_core: ^4.10.0
+  cloud_firestore: ^6.5.0
+  firebase_auth: ^6.5.2
+
+  # Localization
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+  # Utilities
+  url_launcher: ^6.3.0
+  share_plus: ^10.0.0
+  shared_preferences: ^2.5.5
+  http: ^1.6.0
+  geolocator: ^14.0.2
+  provider: ^6.1.5+1
+  lottie: ^3.3.3
+  flutter_animate: ^4.5.2
+  package_info_plus: ^9.0.1
+  pub_semver: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/icon.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+  adaptive_icon_background: "#0B0F19"
+  adaptive_icon_foreground: "assets/icon.png"

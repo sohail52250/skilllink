@@ -1,0 +1,4 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://skilllink-56764.web.app/sitemap.xml

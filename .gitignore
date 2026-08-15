@@ -1,0 +1,51 @@
+﻿# Flutter / Dart
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+build/
+coverage/
+
+# Generated plugin files
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / temporary files
+*.log
+*.tmp
+*.bak
+*.backup
+*.old
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Firebase / Google credentials
+*service-account*.json
+*firebase-admin*.json
+*adminsdk*.json
+*credentials*.json
+*secret*.json
+*.pem
+*.p12
+
+# Local repair / recovery material
+*repair-backup*/
+backups/
+
+# Node dependencies
+node_modules/
+
+.firebase/
